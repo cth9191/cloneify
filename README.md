@@ -47,7 +47,8 @@ cloneify is a **conductor** — it orchestrates other tools. You need:
 - A **`deep-research` skill** available in your environment (Phase 1 invokes it by
   name). Any deep-research harness that returns a sourced report works; swap the
   Phase 1 call for your own if you use a different one.
-- The **[grill-me-codex](https://github.com/) skill** (Phase 2 invokes it by name).
+- The **[grill-me-codex](https://github.com/chaseai-yt/grill-me-codex) skill**
+  (Phase 2 invokes it by name).
 - The **[Codex CLI](https://github.com/openai/codex)** installed and authenticated
   (`codex login`) — grill-me-codex uses it for the adversarial plan review.
 - For the optional autonomous build: **Claude Code v2.1.139+** with `/goal`.
@@ -112,6 +113,7 @@ completed phase.
 ## Credits & license
 
 - cloneify is released under the **MIT License** (see [LICENSE](LICENSE)).
-- Phase 2 builds on **[grill-me-codex](https://github.com/)**, which in turn builds
-  on **Matt Pocock's `grill-me`** (MIT). The grilling methodology lineage is his;
+- Phase 2 builds on **[grill-me-codex](https://github.com/chaseai-yt/grill-me-codex)**,
+  which in turn builds on **Matt Pocock's `grill-me`** (MIT). The grilling
+  methodology lineage is his;
   the cross-model Codex review and the four-phase clone pipeline are additions.
